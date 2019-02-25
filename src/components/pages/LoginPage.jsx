@@ -9,7 +9,6 @@ class LoginPage extends Component {
     this.props.login(data).then(() => this.props.history.push("/"));
 
   render() {
-    console.log("render LoginPage:", this.props.login);
     return (
       <div className="LoginPage">
         <h1>Login Page</h1>
