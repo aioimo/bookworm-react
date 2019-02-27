@@ -7,7 +7,9 @@ const ConfirmEmailMessage = () => (
       <Message.Header>
         Please verify your email to take full advantage of the website.
       </Message.Header>
-      It's not required, but it is suggested.
+      <Message.Content>
+        It is not required, but it is suggested.
+      </Message.Content>
     </Message>
   </div>
 );
